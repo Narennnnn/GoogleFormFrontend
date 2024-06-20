@@ -1,0 +1,48 @@
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+.vs/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.userprefs
+
+# Ignore build results
+bin/
+obj/
+
+# Ignore project-specific files
+*.sln
+*.vbproj
+*.vbproj.user
+*.vbproj.vspscc
+*.csproj
+*.csproj.user
+*.csproj.vspscc
+
+# Ignore compiled DLLs and executables
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# Ignore NuGet packages
+*.nupkg
+# The packages folder can be ignored because of the presence of `project.assets.json` in the project root.
+# This ensures that the correct package versions are restored on build.
+packages/
+# Uncomment if using PackageReference instead of packages.config
+#*.props
+#*.targets
+
+# Ignore all my projects
+My Project/
+
+# Ignore other files
+*.log
+*.cache
+*.config
+*.plist
+
+# Ignore deployment files
+.publish/
