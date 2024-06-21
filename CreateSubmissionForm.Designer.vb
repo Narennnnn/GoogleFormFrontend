@@ -41,6 +41,7 @@ Partial Class CreateSubmissionForm
         Me.txtName.Name = "txtName"
         Me.txtName.Size = New System.Drawing.Size(200, 20)
         Me.txtName.TabIndex = 0
+        Me.txtName.BackColor = Color.White
         '
         'txtEmail
         '
@@ -48,6 +49,7 @@ Partial Class CreateSubmissionForm
         Me.txtEmail.Name = "txtEmail"
         Me.txtEmail.Size = New System.Drawing.Size(200, 20)
         Me.txtEmail.TabIndex = 1
+        Me.txtEmail.BackColor = Color.White
         '
         'txtPhone
         '
@@ -55,6 +57,7 @@ Partial Class CreateSubmissionForm
         Me.txtPhone.Name = "txtPhone"
         Me.txtPhone.Size = New System.Drawing.Size(200, 20)
         Me.txtPhone.TabIndex = 2
+        Me.txtPhone.BackColor = Color.White
         '
         'txtGithubLink
         '
@@ -62,6 +65,7 @@ Partial Class CreateSubmissionForm
         Me.txtGithubLink.Name = "txtGithubLink"
         Me.txtGithubLink.Size = New System.Drawing.Size(200, 20)
         Me.txtGithubLink.TabIndex = 3
+        Me.txtGithubLink.BackColor = Color.White
         '
         'btnStartStopwatch
         '
@@ -71,6 +75,9 @@ Partial Class CreateSubmissionForm
         Me.btnStartStopwatch.TabIndex = 4
         Me.btnStartStopwatch.Text = "Start/Stop Stopwatch"
         Me.btnStartStopwatch.UseVisualStyleBackColor = True
+        Me.btnStartStopwatch.BackColor = Color.LightYellow
+
+
         '
         'btnSubmit
         '
@@ -80,6 +87,7 @@ Partial Class CreateSubmissionForm
         Me.btnSubmit.TabIndex = 5
         Me.btnSubmit.Text = "Submit"
         Me.btnSubmit.UseVisualStyleBackColor = True
+        Me.btnSubmit.BackColor = Color.LightBlue
         '
         'lblStopwatch
         '

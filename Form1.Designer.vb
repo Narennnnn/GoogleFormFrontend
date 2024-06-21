@@ -35,6 +35,8 @@ Partial Class Form1
         btnViewSubmissions.TabIndex = 0
         btnViewSubmissions.Text = "VIEW SUBMISSIONS (CTRL + V)"
         btnViewSubmissions.UseVisualStyleBackColor = True
+        btnViewSubmissions.BackColor = Color.LightYellow
+
         ' 
         ' btnCreateSubmission
         ' 
@@ -45,6 +47,9 @@ Partial Class Form1
         btnCreateSubmission.TabIndex = 1
         btnCreateSubmission.Text = "CREATE NEW SUBMISSION (CTRL + N)"
         btnCreateSubmission.UseVisualStyleBackColor = True
+        btnCreateSubmission.BackColor = Color.LightBlue
+
+
         ' 
         ' Form1
         ' 

@@ -4,9 +4,19 @@ Imports Newtonsoft.Json
 
 Public Class CreateSubmissionForm
     Private stopwatch As New Stopwatch()
+    Private timer As New Timer()
 
     Private Sub CreateSubmissionForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.KeyPreview = True
+        AddHandler timer.Tick, AddressOf TimerTick
+        timer.Interval = 1000 ' 1 second interval
+        timer.Start()
+    End Sub
+
+    Private Sub TimerTick(sender As Object, e As EventArgs)
+        If stopwatch.IsRunning Then
+            UpdateStopwatchLabel()
+        End If
     End Sub
 
     Private Sub btnStartStopwatch_Click(sender As Object, e As EventArgs) Handles btnStartStopwatch.Click

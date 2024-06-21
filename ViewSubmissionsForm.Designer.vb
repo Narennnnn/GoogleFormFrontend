@@ -29,6 +29,11 @@ Partial Class ViewSubmissionsForm
         Me.txtStopwatchTime = New System.Windows.Forms.TextBox()
         Me.btnPrevious = New System.Windows.Forms.Button()
         Me.btnNext = New System.Windows.Forms.Button()
+        Me.lblName = New System.Windows.Forms.Label()
+        Me.lblEmail = New System.Windows.Forms.Label()
+        Me.lblPhone = New System.Windows.Forms.Label()
+        Me.lblGithubLink = New System.Windows.Forms.Label()
+        Me.lblStopwatchTime = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'txtName
@@ -38,6 +43,7 @@ Partial Class ViewSubmissionsForm
         Me.txtName.ReadOnly = True
         Me.txtName.Size = New System.Drawing.Size(200, 20)
         Me.txtName.TabIndex = 0
+        Me.txtName.BackColor = Color.LightGray
         '
         'txtEmail
         '
@@ -46,6 +52,7 @@ Partial Class ViewSubmissionsForm
         Me.txtEmail.ReadOnly = True
         Me.txtEmail.Size = New System.Drawing.Size(200, 20)
         Me.txtEmail.TabIndex = 1
+        Me.txtEmail.BackColor = Color.LightGray
         '
         'txtPhone
         '
@@ -54,6 +61,7 @@ Partial Class ViewSubmissionsForm
         Me.txtPhone.ReadOnly = True
         Me.txtPhone.Size = New System.Drawing.Size(200, 20)
         Me.txtPhone.TabIndex = 2
+        Me.txtPhone.BackColor = Color.LightGray
         '
         'txtGithubLink
         '
@@ -62,6 +70,7 @@ Partial Class ViewSubmissionsForm
         Me.txtGithubLink.ReadOnly = True
         Me.txtGithubLink.Size = New System.Drawing.Size(200, 20)
         Me.txtGithubLink.TabIndex = 3
+        Me.txtGithubLink.BackColor = Color.LightGray
         '
         'txtStopwatchTime
         '
@@ -70,6 +79,7 @@ Partial Class ViewSubmissionsForm
         Me.txtStopwatchTime.ReadOnly = True
         Me.txtStopwatchTime.Size = New System.Drawing.Size(200, 20)
         Me.txtStopwatchTime.TabIndex = 4
+        Me.txtStopwatchTime.BackColor = Color.LightGray
         '
         'btnPrevious
         '
@@ -79,6 +89,8 @@ Partial Class ViewSubmissionsForm
         Me.btnPrevious.TabIndex = 5
         Me.btnPrevious.Text = "Previous"
         Me.btnPrevious.UseVisualStyleBackColor = True
+        Me.btnPrevious.BackColor = Color.LightYellow
+
         '
         'btnNext
         '
@@ -88,12 +100,63 @@ Partial Class ViewSubmissionsForm
         Me.btnNext.TabIndex = 6
         Me.btnNext.Text = "Next"
         Me.btnNext.UseVisualStyleBackColor = True
+        Me.btnNext.BackColor = Color.LightBlue
+        '
+        'lblName
+        '
+        Me.lblName.AutoSize = True
+        Me.lblName.Location = New System.Drawing.Point(50, 30)
+        Me.lblName.Name = "lblName"
+        Me.lblName.Size = New System.Drawing.Size(35, 13)
+        Me.lblName.TabIndex = 7
+        Me.lblName.Text = "Name"
+        '
+        'lblEmail
+        '
+        Me.lblEmail.AutoSize = True
+        Me.lblEmail.Location = New System.Drawing.Point(50, 80)
+        Me.lblEmail.Name = "lblEmail"
+        Me.lblEmail.Size = New System.Drawing.Size(32, 13)
+        Me.lblEmail.TabIndex = 8
+        Me.lblEmail.Text = "Email"
+        '
+        'lblPhone
+        '
+        Me.lblPhone.AutoSize = True
+        Me.lblPhone.Location = New System.Drawing.Point(50, 130)
+        Me.lblPhone.Name = "lblPhone"
+        Me.lblPhone.Size = New System.Drawing.Size(78, 13)
+        Me.lblPhone.TabIndex = 9
+        Me.lblPhone.Text = "Phone Number"
+        '
+        'lblGithubLink
+        '
+        Me.lblGithubLink.AutoSize = True
+        Me.lblGithubLink.Location = New System.Drawing.Point(50, 180)
+        Me.lblGithubLink.Name = "lblGithubLink"
+        Me.lblGithubLink.Size = New System.Drawing.Size(64, 13)
+        Me.lblGithubLink.TabIndex = 10
+        Me.lblGithubLink.Text = "GitHub Link"
+        '
+        'lblStopwatchTime
+        '
+        Me.lblStopwatchTime.AutoSize = True
+        Me.lblStopwatchTime.Location = New System.Drawing.Point(50, 230)
+        Me.lblStopwatchTime.Name = "lblStopwatchTime"
+        Me.lblStopwatchTime.Size = New System.Drawing.Size(84, 13)
+        Me.lblStopwatchTime.TabIndex = 11
+        Me.lblStopwatchTime.Text = "Stopwatch Time"
         '
         'ViewSubmissionsForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 361)
+        Me.Controls.Add(Me.lblStopwatchTime)
+        Me.Controls.Add(Me.lblGithubLink)
+        Me.Controls.Add(Me.lblPhone)
+        Me.Controls.Add(Me.lblEmail)
+        Me.Controls.Add(Me.lblName)
         Me.Controls.Add(Me.btnNext)
         Me.Controls.Add(Me.btnPrevious)
         Me.Controls.Add(Me.txtStopwatchTime)
@@ -115,5 +178,10 @@ Partial Class ViewSubmissionsForm
     Friend WithEvents txtStopwatchTime As TextBox
     Friend WithEvents btnPrevious As Button
     Friend WithEvents btnNext As Button
+    Friend WithEvents lblName As Label
+    Friend WithEvents lblEmail As Label
+    Friend WithEvents lblPhone As Label
+    Friend WithEvents lblGithubLink As Label
+    Friend WithEvents lblStopwatchTime As Label
 
 End Class
