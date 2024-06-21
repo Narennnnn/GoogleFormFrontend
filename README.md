@@ -35,18 +35,22 @@ https://github.com/Narennnnn/GoogleFormBackend/blob/main/README.md
 
 ### Step 4: Run the Frontend Application
 1. Open the solution in Visual Studio.
-2. Set ``GoogleFormSubmissionFrontend ``as the startup project.
-3. Click on the Run button (or press F5) to start the application.
+3. Click on the Run button or press F5 ``(GoogleFormSubmissionFrontend)`` to start the application.
 
 ### Testing Features
 Once the frontend application is running, you can test the following features:
 
 #### 1. View Submissions:
-Click on the VIEW SUBMISSIONS (CTRL + V) button to view existing submissions.
+Click on the VIEW SUBMISSIONS```(CTRL + V)``` button to view existing submissions.
 
 #### 2. Create New Submission:
 
-1. Click on the CREATE NEW SUBMISSION (CTRL + N) button to open the submission form.\
-2. Fill out the form with Name, Email, Phone Number, and GitHub Link.\
-3. Use the Start/Stop Stopwatch button to measure time taken for the submission.(CTRL+T)\
-4. Click Submit to send your submission to the backend server.
+1. Click on the CREATE NEW SUBMISSION `(CTRL + N)` button to open the submission form.
+2. Fill out the form with Name, Email, Phone Number, and GitHub Link.
+3. Use the Start/Stop Stopwatch button to measure time taken for the submission.`(CTRL+T)`
+4. Click Submit to send your submission to the backend server.`(CTRL+S)`
+
+### Demo 
+```bash
+https://drive.google.com/file/d/1rwT2r2qTowQBP7DHvat05yzsJROodEuw/view?usp=sharing
+```
